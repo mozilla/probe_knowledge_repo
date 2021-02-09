@@ -1,0 +1,42 @@
+name: pwmgr.reauthenticate#reauthenticate
+type: event
+description: "Measure how often users are asked to authenticate with their Operating\
+  \ System or Master Password to gain access to stored passwords. Possible values\
+  \ are as follows,\n  \"success\" should be used when the user authenticates and\
+  \ provides a password or other authentication factor.\n  \"success_no_prompt\" should\
+  \ be used when the feature is enabled but no prompt is given to the user because\
+  \ they have recently authenticated.\n  \"success_disabled\" is used when the feature\
+  \ is disabled.\n  \"success_unsupported_platform\" should be set when the user attempts\
+  \ to authenticate on an unsupported platform.\n  \"success_no_password\" should\
+  \ be used when the user doesn't have an OS password set.\n  \"success_auto_admin_logon\"\
+  \ should be used when the user has enabled the \"AutoAdminLogon\" registry key\n\
+  \  \"fail\" should be used when the user cancels the authentication prompt or an\
+  \ unexpected exception is encountered. The user may or may not have provided an\
+  \ incorrect password before cancelling.\n"
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

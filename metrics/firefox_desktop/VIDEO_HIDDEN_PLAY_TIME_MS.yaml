@@ -1,0 +1,33 @@
+name: VIDEO_HIDDEN_PLAY_TIME_MS
+type: histogram
+description: Total time spent playing video while element is hidden, in milliseconds.
+  This reports the total hidden play time for an HTML Media Element whenever it is
+  suspended or resumed, such as when the page is unloaded, or when the mute status
+  changes when the AudioChannelAPI pref is set.
+expiry_version: '55'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

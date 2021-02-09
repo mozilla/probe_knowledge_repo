@@ -1,0 +1,35 @@
+name: security.ui.identitypopup.open#open
+type: event
+description: 'How many times the control center was opened. Keyed by the state of
+  the content blocking shield, where the shield-showing key indicates that the shield
+  icon in the identity UI is visible to the user, and shield-hidden indicates that
+  it is not visible.
+
+  '
+expiry_version: '70'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

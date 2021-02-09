@@ -1,0 +1,47 @@
+type: object
+additionalProperties: false
+properties:
+  features:
+    type: array
+    items:
+      type: string
+      enum:
+        - Accessibility
+        - Quantum Bar
+        - Bookmarks
+        - Containers
+        - Credit Cards
+        - Customization
+        - DevTools
+        - DOM
+        - Downloads
+        - Firefox Accounts
+        - Fonts
+        - Form Autofill
+        - History
+        - Localization
+        - Logins and Passwords
+        # Media (Audio / Video)
+        - Media
+        # Messaging (Marketing Channels)
+        - Messaging
+        - Navigation
+        - Network
+        - New tab
+        - Onboarding
+        - Performance
+        - Picture-in-Picture
+        - Pinned Tabs
+        - Pocket
+        - Preferences / Settings
+        - Privacy
+        - Private Browsing Mode
+        - Search
+        - Security
+        - Sync
+        - Tabs
+        # Telemetry about Telemetry
+        - Telemetry
+        - Themes
+        - Tracking Protection
+        - Web Extensions

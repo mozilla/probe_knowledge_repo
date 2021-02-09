@@ -1,0 +1,32 @@
+name: JS_DEPRECATED_LANGUAGE_EXTENSIONS_IN_CONTENT
+type: histogram
+description: 'Use of SpiderMonkey''s deprecated language extensions in web content:
+  ForEach=0, DestructuringForIn=1, LegacyGenerator=2, ExpressionClosure=3, LetBlock=4,
+  LetExpression=5, NoSuchMethod=6, FlagsArgument=7, RegExpSourceProp=8'
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

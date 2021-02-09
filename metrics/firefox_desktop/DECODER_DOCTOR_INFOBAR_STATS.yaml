@@ -1,0 +1,38 @@
+name: DECODER_DOCTOR_INFOBAR_STATS
+type: histogram
+description: Counts of various Decoder Doctor notification events. Used to track efficacy
+  of Decoder Doctor at helping users fix problems with their audio/video codecs. Keys
+  are localized string names that identify problem with audio/video codecs that Decoder
+  Doctor attempts to solve; see string values in dom.properties for verbose description
+  of problems being solved. 0=recorded every time the Decoder Doctor notification
+  is shown, 1=recorded the first time in a profile when notification is shown, 2=recorded
+  when 'Learn how' button clicked, 3=recorded when 'Learn how' button first clicked
+  in a profile, 4=recorded when issue solved after infobar has been shown at least
+  once in a profile.
+expiry_version: '59'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

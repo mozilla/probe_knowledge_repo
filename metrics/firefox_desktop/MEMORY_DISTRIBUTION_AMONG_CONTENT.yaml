@@ -1,0 +1,35 @@
+name: MEMORY_DISTRIBUTION_AMONG_CONTENT
+type: histogram
+description: 'Absolute difference of each content process'' USS and the mean of USS''s,
+  normalized by the mean, in percentage. It will be recorded with the rest of the
+  memory probes when gatherMemory is called, if at least 2 content processes are alive.
+  Example: in case of 4 content processes with USS''s: 1G, 500MB, 1G, 1.5G, the reported
+  numbers will be: 0, 50, 0, 50. Which indicates that 2 processes used 50% more or
+  50% less memory than the avarage and 2 used exactly as much as the avarage.'
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

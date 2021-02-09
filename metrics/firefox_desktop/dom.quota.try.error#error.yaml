@@ -1,0 +1,36 @@
+name: dom.quota.try.error#error
+type: event
+description: 'An event recorded on an error of the quota manager or its clients. Since
+  errors are usually propagated up the call chain, all such propagation steps are
+  recorded for an error. This is only active during specific contexts, in particular
+  during storage initialization. No dynamic data is included in the event beyond the
+  error code which will be added through Bug 1670555.
+
+  '
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

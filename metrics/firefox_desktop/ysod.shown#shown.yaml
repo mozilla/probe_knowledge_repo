@@ -1,0 +1,36 @@
+name: ysod.shown#shown
+type: event
+description: This event is recorded only for Firefox UI documents (chrome). Recorded
+  when a Yellow Screen of Death is shown. The `value` is a url on which the error
+  happened. Yellow Screen of Death happens when XML or XHTML document encounters a
+  parsing error. It is commonly a result of the document being malformed or missing
+  DTD entity. Mozilla has a number of documents that rely on DTD entities for localization,
+  and in some error scenarios those entities may be missing or malformed themselves,
+  in which case the user will see a broken UI.
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

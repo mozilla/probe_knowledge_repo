@@ -1,0 +1,35 @@
+name: gfx.advanced.layers.failure_id
+type: scalar
+description: 'Each key is a failure for initializing Advanced Layers, and each value
+  is the number of times that failure was recorded. The failure codes are unique strings
+  present in MLGDeviceD3D11::Initialize, such that a failure can be traced back to
+  a specific Direct3D API call.
+
+  '
+expiry_version: '61'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

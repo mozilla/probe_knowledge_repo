@@ -1,0 +1,39 @@
+name: browser.startup.abouthome_cache_result
+type: scalar
+description: 'How the about:home startup cache functioned on startup.
+
+  0: Result value was never set (error case) 1: Cache did not exist 2: Cache page
+  stream was corrupt / inaccessible 3: Cache script stream was corrupt / inaccessible
+  4: Cache was invalidated by a version bump 5: Cache was valid, but read too late
+  to be useful. 6: Cache was valid and used. 7: Cache is disabled. 8: User did not
+  load about:home on its own by default. 9: Cache is disabled because about:newtab
+  preloading is disabled.
+
+  '
+expiry_version: '87'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

@@ -1,0 +1,44 @@
+name: search.default_engine.submission_url
+type: string
+description: 'If the search engine is pre-loaded with Fenix this value will be he
+  base
+
+  URL we use to build the search query for the search engine. For example:
+
+  https://mysearchengine.com/?query=%s. If it''s a custom search engine
+
+  (defined: https://github.com/mozilla-mobile/fenix/issues/1607) the value
+
+  will be "custom"
+
+  '
+expires: '2021-08-01'
+disabled: false
+send_in_pings:
+- metrics
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

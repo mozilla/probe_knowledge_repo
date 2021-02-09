@@ -1,0 +1,40 @@
+name: security.unexpectedload#unexpectedload
+type: event
+description: 'Long term want to block all loads from the system principal that cause
+  us to parse non-trivial data. We don''t look to break existing functionality and
+  will allow exceptions, for this we are collecting information about unexpected requests
+  triggered by the system principal Our measurement *excludes* acceptable requests.
+  Those are: - annotated using the ''AllowedDeprecatedSystemRequests'' loadinfo flag
+  - using a nsContentPolicyType of FETCH, XMLHTTPREQUEST, WEBSOCKET, SAVEAS_DOWNLOAD
+  or IMAGE - with a requested URI object has the flag URI_IS_UI_RESOURCE - if the
+  URL scheme is ''view-source'' - if the URL scheme is ''file'' and the Content-Type
+  is STYLESHEET or OTHER - if the scheme is ''jar'', ''about'' or ''moz-extension''
+
+  '
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

@@ -1,0 +1,41 @@
+name: HTTP_TRAFFIC_ANALYSIS
+type: histogram
+description: 'Numbers of HTTP transactions and connections by type. There are some
+  categories separated by keys based on 4 parameters: 1. normal browsing or private
+  browsing 2. first party or third party 3. class of service 4. tracking classification.
+  Available keys are: [''Y=0|NormalFirstParty'', ''Y=1|NormalThirdPartyOther'', ''Y=2|NormalThirdPartyContentLeader'',
+  ''Y=3|NormalThirdPartyContentBackground'', ''Y=4|NormalThirdPartyContentOther'',
+  ''Y=5|NormalThirdPartyBasicLeader'', ''Y=6|NormalThirdPartyBasicBackground'', ''Y=7|NormalThirdPartyBasicOther'',
+  ''Y=8|NormalThirdPartyFingerprintingLeader'', ''Y=9|NormalThirdPartyFingerprintingBackground'',
+  ''Y=10|NormalThirdPartyFingerprintingOther'', ''Y=11|PrivateFirstParty'', ''Y=12|PrivateThirdPartyOther'',
+  ''Y=13|PrivateThirdPartyContentLeader'', ''Y=14|PrivateThirdPartyContentBackground'',
+  ''Y=15|PrivateThirdPartyContentOther'', ''Y=16|PrivateThirdPartyBasicLeader'', ''Y=17|PrivateThirdPartyBasicBackground'',
+  ''Y=18|PrivateThirdPartyBasicOther'', ''Y=19|PrivateThirdPartyFingerprintingLeader'',
+  ''Y=20|PrivateThirdPartyFingerprintingBackground'', ''Y=21|PrivateThirdPartyFingerprintingOther''].'
+expiry_version: '73'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

@@ -1,0 +1,34 @@
+name: URLCLASSIFIER_THREATHIT_NETWORK_ERROR
+type: histogram
+description: Whether or not an error was encountered while sending a Safe Browsing
+  ThreatHit report. (0=sucess, 1=unknown error, 2=already connected, 3=not connected,
+  4=connection refused,5=net timeout, 6=offline, 7=port access not allowed, 8=net
+  reset, 9=net interrupt, 10=proxy connection refused, 11=partial transfer, 12=inadequate
+  security, 13=unknown host, 14=dns lookup queue full, 15=unknown proxy host)
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

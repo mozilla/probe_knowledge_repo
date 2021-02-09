@@ -1,0 +1,35 @@
+name: FX_MIGRATION_LOGINS_JANK_MS
+type: histogram
+description: Accumulated timer delay (variance between when the timer was expected
+  to fire and when it actually fired) in milliseconds as an indicator for decreased
+  main-thread responsiveness while importing logins / passwords from another browser,
+  keyed by the name of the browser (see gAvailableMigratorKeys in MigrationUtils.jsm).
+  The import is happening on a background thread and should ideally not affect the
+  UI noticeably.
+expiry_version: '58'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

@@ -1,0 +1,33 @@
+name: COOKIES_3RDPARTY_NUM_SITES_ACCEPTED
+type: histogram
+description: The number of distinct pairs (first-party site, third-party site attempting
+  to set cookie) for which the third-party cookie has been accepted. Sites are considered
+  identical if they have the same eTLD + 1. Measures are normalized per 24h. *** No
+  longer needed (bug 1156565). Delete histogram and accumulation code! ***
+expiry_version: '40'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

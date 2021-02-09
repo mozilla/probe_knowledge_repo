@@ -1,0 +1,40 @@
+name: networking.data_transferred_v3_kb
+type: scalar
+description: "How many KB of HTTP data transferred by type, there are some categories\
+  \ separated by keys based on 5 parameters:\n  1. normal browsing or private browsing\n\
+  \  2. system principal or not\n  3. first party or third party\n  4. class of service\
+  \ (Leader/Background/Others)\n  5. tracking classification (Basic/Content/FingerprintingContent)\n\
+  \nAvailable keys are:\n  \"Y0_N1Sys\",\n  \"Y1_N1\",\n  \"Y2_N3Oth\",\n  \"Y3_N3BasicLead\"\
+  ,\n  \"Y4_N3BasicBg\",\n  \"Y5_N3BasicOth\",\n  \"Y6_N3ContentLead\",\n  \"Y7_N3ContentBg\"\
+  ,\n  \"Y8_N3ContentOth\",\n  \"Y9_N3FpLead\",\n  \"Y10_N3FpBg\",\n  \"Y11_N3FpOth\"\
+  ,\n  \"Y12_P1Sys\",\n  \"Y13_P1\",\n  \"Y14_P3Oth\",\n  \"Y15_P3BasicLead\",\n \
+  \ \"Y16_P3BasicBg\",\n  \"Y17_P3BasicOth\",\n  \"Y18_P3ContentLead\",\n  \"Y19_P3ContentBg\"\
+  ,\n  \"Y20_P3ContentOth\",\n  \"Y21_P3FpLead\",\n  \"Y22_P3FpBg\",\n  \"Y23_P3FpOth\"\
+  \n"
+expiry_version: '73'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

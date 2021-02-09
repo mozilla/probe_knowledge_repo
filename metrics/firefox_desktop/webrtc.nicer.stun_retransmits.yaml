@@ -1,0 +1,37 @@
+name: webrtc.nicer.stun_retransmits
+type: scalar
+description: 'The count of STUN message retransmissions during a WebRTC call. When
+  sending STUN request messages over UDP, messages may be dropped by the network.
+  Retransmissions are the mechanism used to accomplish reliability of the STUN request/response
+  transaction. This can happen during both successful and unsuccessful WebRTC calls.
+  For more info on ICE, see https://tools.ietf.org/html/rfc5245 For more info on STUN,
+  see https://tools.ietf.org/html/rfc5389 For more info on TURN, see https://tools.ietf.org/html/rfc5766
+
+  '
+expiry_version: '57'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

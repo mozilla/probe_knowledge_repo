@@ -1,0 +1,35 @@
+name: TABS_AUDIO_COMPETITION
+type: histogram
+description: This probe would be reported whenever (1) media starts without encountering
+  audio competition (2) encountering audio competition but users ignore it (keep all
+  media continually playing) (3) encountering audio competition and users manually
+  handle it (4) encountering audio competition and Gecko handled it. The value of
+  each state would be the total happening count for specific situation during the
+  whole session.
+expiry_version: '91'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

@@ -1,0 +1,33 @@
+name: FX_STARTUP_MIGRATION_DATA_RECENCY
+type: histogram
+description: The 'last modified' time of the data we imported on the initial profile
+  migration (time delta with 'now' at the time of migration, in hours). Collected
+  for all browsers for which migration data is available, and stored keyed by browser
+  identifier (e.g. 'ie', 'edge', 'safari', etc.).
+expiry_version: '57'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

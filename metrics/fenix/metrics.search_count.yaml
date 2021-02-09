@@ -1,0 +1,51 @@
+name: metrics.search_count
+type: labeled_counter
+description: 'The labels for this counter are `<search-engine-name>.<source>`.
+
+
+  If the search engine is bundled with Fenix `search-engine-name` will be
+
+  the name of the search engine. If it''s a custom search engine (defined:
+
+  https://github.com/mozilla-mobile/fenix/issues/1607) the value will be
+
+  `custom`.
+
+
+  `source` will be: `action`, `suggestion`, `widget` or `shortcut`
+
+  (depending on the source from which the search started). Also added the
+
+  `other` option for the source but it should never enter on this case.
+
+  '
+expires: '2021-08-01'
+disabled: false
+send_in_pings:
+- metrics
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

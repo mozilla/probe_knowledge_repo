@@ -1,0 +1,51 @@
+name: metrics.recently_used_pwa_count
+type: counter
+description: 'A counter that indicates how many PWAs a user has recently used.
+
+  Threshold for "recency" set in HomeActivity#PWA_RECENTLY_USED_THRESHOLD.
+
+  Currently we are not told by the OS when a PWA is removed by the user,
+
+  so we use the "recently used" heuristic to judge how many PWAs are still
+
+  active, as a proxy for "installed". This value will only be set if the
+
+  user has at least *one* recently used PWA. If they have 0, this metric
+
+  will not be sent, resulting in a null value during analysis on the
+
+  server-side. To disambiguate between a failed `recently_used_pwa_count`
+
+  metric and 0 recent PWAs, please see `has_recent_pwas`.
+
+  '
+expires: '2021-08-01'
+disabled: false
+send_in_pings:
+- metrics
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

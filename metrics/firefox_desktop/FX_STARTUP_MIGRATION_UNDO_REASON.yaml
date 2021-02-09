@@ -1,0 +1,36 @@
+name: FX_STARTUP_MIGRATION_UNDO_REASON
+type: histogram
+description: 'Why the undo functionality of an automatic migration was disabled: 0
+  means we used undo, 1 means the user signed in to sync, 2 means the user created/modified
+  a password, 3 means the user created/modified a bookmark (item or folder), 4 means
+  we showed an undo option repeatedly and the user did not use it, 5 means we showed
+  an undo option and the user actively elected to keep the data. The whole thing is
+  keyed to the identifiers of different browsers (so ''chrome'', ''ie'', ''edge'',
+  ''safari'', etc.).'
+expiry_version: '57'
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---

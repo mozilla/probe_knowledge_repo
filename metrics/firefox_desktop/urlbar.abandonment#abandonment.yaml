@@ -1,0 +1,32 @@
+name: urlbar.abandonment#abandonment
+type: event
+description: "This is recorded on urlbar search abandon, that is when the user starts\
+  \ an interaction but then blurs the urlbar. The value field records the initial\
+  \ interaction type. One of:\n  \"typed\", \"dropped\", \"pasted\", \"topsites\"\n"
+expiry_version: never
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports below here. Use this format [Your_Name, Date]: www.some_link.com
+---
+
+
+---
+## Known issues about handling or interpreting this probe go below.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+---
+
+
+---
+## Common metrics that are computed with this probe and their interpretation / description
+* Can also include names of BigQuery tables where the metric is stored.
+---
+
+
+---
+## Other Notes
+---
